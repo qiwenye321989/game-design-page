@@ -1,0 +1,561 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+main {
+    width: 95%;
+/*    max-width:1000px;*/
+    margin: 0 auto;
+}
+
+#homepage {
+    justify-content: center;
+    align-content: center;
+}
+
+.feature {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.headerlink {
+ margin:0;  
+ padding:0;
+}
+.sitelink {
+    padding:0; 
+    color: blue; }
+
+#feature1 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/HomePagePicture.jpeg);
+    background-position: 75% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#feature2 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/sandboxGamespic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#feature3 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/minecraftpic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature4 {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/StrategyGamesPic.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 85%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature5 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/animalcrossingpic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature6 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/MeleeGamesPic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature7 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/dungeonsanddragonsonlinepic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature8 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/grandtheftautofivepic.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: 50% 95%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature9 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/SettlersofCatanpic.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 40% 32%;
+    height: 300px;
+}
+
+#feature10 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/monopolyonlinepic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature11 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/magicthegatheringonlinepic.png);
+
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+    height: 300px;
+}
+
+#feature12 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+        url(../images/fortnitepic.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-size: cover;
+    height: 300px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+
+nav a:hover {
+    background-color: darkgray;
+}
+
+#Sandbox { 
+    background-color: white; 
+    color: black; 
+}
+
+#Melee {
+    background-color: white; 
+    color: black; 
+}
+#Strategy {
+    background-color: white; 
+    color: black; } 
+a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.links {color: blue; }
+
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.tag {
+    width: 100%;
+    max-width:1000px;
+    margin: 2% auto; 
+    box-sizing: border-box;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* all columns p text*/
+.col-par {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0, .75);
+    padding: 15px; 
+}
+
+/*
+.container {
+width:100%; 
+    background-color: red; 
+} 
+*/
+.flexcontainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    /*    background-color: blue; */
+}
+
+.flexcontainergame {
+    display: flex;
+    /*    flex-direction: column;*/
+    text-align: center;
+    /*    justify-content: center;*/
+    align-items: center;
+    width: 100%;
+
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 30%;
+    padding: 0;
+    /* margin: 0 1% 0 1%;*/
+    height: 275px;
+    overflow: hidden;
+}
+
+.p1-list1,
+.p1-list2,
+.p1-list3 {
+    width: 30%;
+    padding: 0;
+    /* margin: 0 1% 0 1%;*/
+    height: 275px;
+}
+
+.p2-list1,
+.p2-list2,
+.p2-list3 {
+    width: 30%;
+     padding: 0;
+    /* margin: 0 1% 0 1%;*/
+    height: 275px;
+}
+
+.p3-list1,
+.p3-list2,
+.p3-list3 {
+    width: 30%;
+     padding: 0;
+    /* margin: 0 1% 0 1%;*/
+    height: 275px;
+}
+
+/*Homepage Columns*/
+.column1 {
+    /*   Change image here*/
+    background-image: url(../images/sandboxGamespic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.column1:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/sandboxGamespic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.column2 {
+    background-image: url(../images/MeleeGamesPic.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.column2:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/MeleeGamesPic.jpg);
+    background-position: center;
+
+}
+
+.column3 {
+    background-image: url(../images/StrategyGamesPic.jpeg);
+    background-size: cover;
+    background-position: left bottom;
+}
+
+.column3:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/StrategyGamesPic.jpeg);
+    background-size: auto;
+    background-position: 60% 80%;
+
+}
+
+/*Sandbox Columns*/
+.p1-list1 {
+    background-image: url(../images/minecraftpic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p1-list1:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, .25)),
+        url(../images/minecraftpic.jpg);
+
+    background-position: 57% 45%;
+    background-repeat: no-repeat;
+}
+
+.p1-list2 {
+    background-image: url(../images/animalcrossingpic.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.p1-list2:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, .25)),
+        url(../images/animalcrossingpic.jpg);
+    background-position: center 85%;
+    background-repeat: no-repeat;
+}
+
+.p1-list3 {
+    background-image: url(../images/grandtheftautofivepic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p1-list3:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, .25)),
+        url(../images/grandtheftautofivepic.jpg);
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+}
+
+/*Melee Columns*/
+.p2-list1 {
+    /*   Change image here*/
+    background-image: url(../images/fortnitepic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p2-list1:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/fortnitepic.jpg);
+    background-position: 32% 30%;
+    background-repeat: no-repeat;
+}
+
+.p2-list2 {
+    background-image: url(../images/dungeonsanddragonsonlinepic.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.p2-list2:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)), url(../images/dungeonsanddragonsonlinepic.jpg);
+
+    background-position: 45% 20%;
+    background-repeat: no-repeat;
+}
+
+.p2-list3 {
+    background-image: url(../images/callofdutywarzonepic.jpg);
+    background-size:cover;
+    background-position: center; 
+}
+
+.p2-list3:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/callofdutywarzonepic.jpg);
+     background-size: ;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+}
+
+/*Strategy Columns*/
+.p3-list1 {
+    background-image: url(../images/SettlersofCatanpic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p3-list1:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/SettlersofCatanpic.jpg);
+    background-position: center;
+
+}
+
+.p3-list2 {
+    background-image: url(../images/monopolyonlinepic.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.p3-list2:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/monopolyonlinepic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p3-list3 {
+    background-image: url(../images/magicthegatheringonlinepic.png);
+    background-size: cover;
+    background-position: 85% 25%;
+}
+
+.p3-list3:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, .75)),
+        url(../images/magicthegatheringonlinepic.png);
+    background-position: 80% 20%;
+
+}
+
+/*Individual Games page*/
+.centercolumn {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 2% auto;
+    height: 450px;
+    /*    background-color: tomato;*/
+}
+
+.Gamedescription {
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 70%;
+    border-style: solid;
+    padding: 20px;
+    position: relative; 
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    #feature1,
+    #feature2,
+
+    #feature4,
+    #feature5,
+    #feature6,
+    #feature7,
+    #feature8,
+    #feature9,
+    #feature10,
+    #feature11,
+    #feature12, {
+        background-size: contain;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .flexcontainer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .column1,
+    .column2,
+    .column3 {
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    .p1-list1,
+    .p1-list2,
+    .p1-list3 {
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    .p2-list1,
+    .p2-list2,
+    .p2-list3 {
+        width: 100%;
+        margin: .5% 0;
+    }
+
+    .p3-list1,
+    .p3-list2,
+    .p3-list3 {
+        width: 100%;
+        margin: .5% 0;
+    }
+
+    .centercolumn,
+    .Gamedescription {
+        width: 100%;
+    }
+
+    .centercolumn {
+        height: 300px;
+        margin: 5% auto;
+    }
+
+    .Gamedescription {
+        margin-bottom: 5%;
+    }
+}
